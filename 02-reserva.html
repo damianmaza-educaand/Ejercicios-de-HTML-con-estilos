@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="author" content="TU NOMBRE Y APELLIDOS">
+  <title>Reserva: ruta histórica «Algeciras 1906»</title>
+  <!--
+    EJERCICIO 2 · Formulario de reserva (equivale a reserva.html del post)
+    Contexto: ALGECIRAS + HISTORIA. Reserva de plaza en una ruta guiada por los
+    lugares de la Conferencia de 1906 (la ruta es inventada; los lugares son reales).
+    Etiquetas que se practican: div, p, hr, form, label, input (text, email, date,
+    radio, number, checkbox), select, option, textarea, button.
+  -->
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      color: #1d2b36;
+      margin: 20px;
+    }
+    .pagina {
+      width: 600px;
+      margin: 0 auto;
+    }
+    h1 {
+      color: #0b5d7a;
+    }
+    .bloque {
+      border: 1px solid #b8c7d1;
+      padding: 15px;
+      margin-bottom: 15px;
+    }
+    input, select, textarea {
+      width: 95%;
+      padding: 5px;
+      margin-bottom: 10px;
+    }
+    .opcion {
+      width: auto;
+    }
+    .ayuda {
+      font-size: 13px;
+      color: #4a5b66;
+    }
+    button {
+      background-color: #0b5d7a;
+      color: white;
+      padding: 10px 20px;
+      font-size: 16px;
+    }
+    .pie {
+      font-size: 13px;
+    }
+  </style>
+</head>
+<body>
+  <div class="pagina">
+    <h1>Ruta «Algeciras 1906»</h1>
+    <p>Visita guiada por los escenarios de la Conferencia Internacional de Algeciras.</p>
+
+    <form action="#" method="post">
+      <div class="bloque">
+        <h2>Datos personales</h2>
+
+        <label for="nombre">Nombre completo</label><br>
+        <input type="text" id="nombre" name="nombre" required>
+
+        <label for="email">Correo electrónico</label><br>
+        <input type="email" id="email" name="email" required>
+
+        <label for="centro">Centro de estudios (opcional)</label><br>
+        <input type="text" id="centro" name="centro" placeholder="Ej.: IES de Algeciras, 1.º DAW">
+      </div>
+
+      <div class="bloque">
+        <h2>Datos de la visita</h2>
+
+        <label for="fecha">Fecha</label><br>
+        <input type="date" id="fecha" name="fecha" required>
+
+        <p>Turno</p>
+        <input class="opcion" type="radio" id="manana" name="turno" value="manana" required>
+        <label for="manana">Mañana</label>
+        <input class="opcion" type="radio" id="tarde" name="turno" value="tarde">
+        <label for="tarde">Tarde</label>
+
+        <p><label for="inicio">Punto de inicio</label></p>
+        <select id="inicio" name="inicio" required>
+          <option value="">— Elige un lugar —</option>
+          <option value="ayuntamiento">Ayuntamiento (Salón de Plenos, sede de las sesiones)</option>
+          <option value="reina-cristina">Hotel Reina Cristina (alojamiento de delegados)</option>
+          <option value="estacion">Estación de ferrocarril</option>
+        </select>
+
+        <label for="personas">Número de personas</label><br>
+        <input type="number" id="personas" name="personas" min="1" max="13" value="1">
+        <p class="ayuda">Máximo 13, una por cada nación que participó en la conferencia.</p>
+
+        <label for="comentarios">Comentarios</label><br>
+        <textarea id="comentarios" name="comentarios" rows="3"></textarea>
+
+        <input class="opcion" type="checkbox" id="accesible" name="accesible">
+        <label for="accesible">Necesito un recorrido accesible</label>
+      </div>
+
+      <button type="submit">Reservar plaza</button>
+    </form>
+
+    <hr>
+    <p class="pie">Lugares tomados de:
+      <a href="https://es.wikipedia.org/wiki/Conferencia_de_Algeciras">Wikipedia – Conferencia de Algeciras</a>.</p>
+  </div>
+</body>
+</html>

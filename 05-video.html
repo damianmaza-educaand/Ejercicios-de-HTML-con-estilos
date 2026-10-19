@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="author" content="TU NOMBRE Y APELLIDOS">
+  <title>Vídeo con subtítulos: historia de Algeciras en 24 segundos</title>
+  <!--
+    EJERCICIO 5 · Vídeo con subtítulos (equivale a video.html del post)
+    Contexto: HISTORIA. Vídeo con subtítulos en español e inglés (archivos .vtt).
+    Etiquetas que se practican: figure, figcaption, video (controls, poster),
+    source, track, ol, li, div, p, hr.
+    IMPORTANTE: los subtítulos solo cargan si la página se abre con Live Server
+    o desde GitHub Pages, no con doble clic en el archivo.
+  -->
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 20px;
+    }
+    .pagina {
+      width: 860px;
+      margin: 0 auto;
+    }
+    h1 {
+      text-align: center;
+    }
+    figure {
+      margin: 0;
+    }
+    video {
+      width: 860px;
+      border: 1px solid #cccccc;
+    }
+    figcaption {
+      text-align: center;
+      color: #555555;
+    }
+    .transcripcion {
+      background-color: #f4f6f8;
+      padding: 10px 20px;
+      margin-top: 15px;
+    }
+    .pie {
+      font-size: 13px;
+    }
+  </style>
+</head>
+<body>
+  <div class="pagina">
+    <h1>Historia de Algeciras en 24 segundos</h1>
+
+    <figure>
+      <video controls poster="media/poster.jpg">
+        <source src="media/historia-algeciras.webm" type="video/webm">
+        <source src="media/historia-algeciras.mp4" type="video/mp4">
+        <track src="media/sub-es.vtt" kind="subtitles" srclang="es" label="Español" default>
+        <track src="media/sub-en.vtt" kind="subtitles" srclang="en" label="English">
+        Tu navegador no soporta vídeo HTML5.
+      </video>
+      <figcaption>Cinco fechas para entender la ciudad (subtítulos en español e inglés).</figcaption>
+    </figure>
+
+    <div class="transcripcion">
+      <h2>Transcripción</h2>
+      <ol>
+        <li><strong>711</strong>: las tropas de Tarik fundan Al-Yazirat Al-Hadra, «la Isla Verde».</li>
+        <li><strong>1344</strong>: Alfonso XI entra en la ciudad tras más de veinte meses de asedio.</li>
+        <li><strong>1379</strong>: Muhammad V de Granada la destruye.</li>
+        <li><strong>1704</strong>: gibraltareños exiliados la refundan.</li>
+        <li><strong>1906</strong>: Conferencia Internacional y creación de la Junta de Obras del Puerto.</li>
+      </ol>
+    </div>
+
+    <hr>
+    <p class="pie">Fuente: <a href="https://es.wikipedia.org/wiki/Historia_de_Algeciras">Wikipedia – Historia de Algeciras</a>.
+      Vídeo y subtítulos: encontrado en la web (está generado por ia)</p>
+  </div>
+</body>
+</html>

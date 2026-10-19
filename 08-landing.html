@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="author" content="TU NOMBRE Y APELLIDOS">
+  <title>Próximamente · Algeciras en datos</title>
+  <!--
+    EJERCICIO 8 · Mini landing «Próximamente» (equivale a landing.html del post)
+    Contexto: ALGECIRAS + DAW. Página de espera del proyecto web «Algeciras en datos».
+    Etiquetas que se practican: div, h1, p, button, hr.
+    Los datos se muestran en tres cajas (div con display: inline-block).
+  -->
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f3f8fa;
+      color: #12313d;
+      text-align: center;
+      margin-top: 80px;
+    }
+    .etiqueta {
+      color: #0b5d7a;
+      font-weight: bold;
+      text-transform: uppercase;
+    }
+    h1 {
+      font-size: 44px;
+    }
+    .texto {
+      font-size: 18px;
+      color: #46616b;
+    }
+    .caja {
+      display: inline-block;
+      width: 180px;
+      background-color: white;
+      border: 1px solid #d7e3e8;
+      padding: 12px;
+      margin: 10px;
+    }
+    .numero {
+      font-size: 26px;
+      font-weight: bold;
+      margin: 5px;
+    }
+    button {
+      background-color: #0b5d7a;
+      color: white;
+      font-size: 16px;
+      padding: 12px 25px;
+      margin-top: 20px;
+    }
+    .pie {
+      font-size: 12px;
+      color: #46616b;
+    }
+  </style>
+</head>
+<body>
+  <p class="etiqueta">Proyecto de Damián Maza</p>
+  <h1>«Algeciras en datos» está en construcción</h1>
+  <p class="texto">Una web hecha por Damián Maza, alumno de Desarrollo de Aplicaciones Web con la historia y las cifras de la ciudad.🚀</p>
+
+  <div>
+    <div class="caja">
+      <p class="numero">124.978</p>
+      <p>👥 habitantes (INE, 2024)</p>
+    </div>
+    <div class="caja">
+      <p class="numero">1704</p>
+      <p>🏛️ año de refundación</p>
+    </div>
+    <div class="caja">
+      <p class="numero">1906</p>
+      <p>🚢 nace el puerto moderno</p>
+    </div>
+  </div>
+
+  <button type="button">🔔 Avísame</button>
+
+  <hr>
+  <p class="pie">Fuentes:
+    <a href="https://www.foro-ciudad.com/cadiz/algeciras/habitantes.html">Foro-Ciudad (padrón INE a 1/1/2024)</a> ·
+    <a href="https://es.wikipedia.org/wiki/Historia_de_Algeciras">Wikipedia – Historia de Algeciras</a> · © 2026 TU NOMBRE</p>
+</body>
+</html>

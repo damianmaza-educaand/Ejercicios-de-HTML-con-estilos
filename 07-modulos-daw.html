@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="author" content="TU NOMBRE Y APELLIDOS">
+  <title>Módulos del ciclo DAW · Tarjetas</title>
+  <!--
+    EJERCICIO 7 · Tarjetas de producto (equivale a cards.html del post)
+    Contexto: ESTUDIOS DAW. Módulos técnicos del título (Real Decreto 686/2010)
+    con su código y su equivalencia en créditos ECTS.
+    Etiquetas que se practican: div, h2, dl, dt, dd, p, hr.
+    Cada tarjeta es un div con dos clases: "tarjeta" y "comun" o "especifico".
+    La segunda clase decide el color del borde.
+  -->
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      color: #1e2329;
+      margin: 20px;
+    }
+    .tarjeta {
+      display: inline-block;
+      width: 220px;
+      margin: 8px;
+      padding: 12px;
+      border: 2px solid gray;
+      vertical-align: top;
+    }
+    .comun {
+      border-color: #4078f2;
+    }
+    .especifico {
+      border-color: #059669;
+      background-color: #f2fbf7;
+    }
+    .destacada {
+      background-color: #fef9c3;
+    }
+    h2 {
+      font-size: 17px;
+    }
+    dt {
+      font-weight: bold;
+    }
+    dd {
+      margin-left: 0;
+      margin-bottom: 5px;
+    }
+    .azul {
+      color: #4078f2;
+      font-weight: bold;
+    }
+    .verde {
+      color: #059669;
+      font-weight: bold;
+    }
+    .pie {
+      font-size: 13px;
+    }
+  </style>
+</head>
+<body>
+  <h1>Técnico Superior en Desarrollo de Aplicaciones Web</h1>
+  <p><span class="azul">Borde azul</span>: común con DAM ·
+     <span class="verde">Borde verde</span>: específico de DAW ·
+     Fondo amarillo: el módulo de este ejercicio</p>
+
+  <div>
+    <div class="tarjeta comun">
+      <h2>Sistemas informáticos</h2>
+      <dl><dt>Código</dt><dd>0483</dd><dt>Créditos ECTS</dt><dd>10</dd></dl>
+    </div>
+    <div class="tarjeta comun">
+      <h2>Bases de datos</h2>
+      <dl><dt>Código</dt><dd>0484</dd><dt>Créditos ECTS</dt><dd>12</dd></dl>
+    </div>
+    <div class="tarjeta comun">
+      <h2>Programación</h2>
+      <dl><dt>Código</dt><dd>0485</dd><dt>Créditos ECTS</dt><dd>14</dd></dl>
+    </div>
+    <div class="tarjeta comun destacada">
+      <h2>Lenguajes de marcas y sistemas de gestión de información</h2>
+      <dl><dt>Código</dt><dd>0373</dd><dt>Créditos ECTS</dt><dd>7</dd></dl>
+    </div>
+    <div class="tarjeta comun">
+      <h2>Entornos de desarrollo</h2>
+      <dl><dt>Código</dt><dd>0487</dd><dt>Créditos ECTS</dt><dd>6</dd></dl>
+    </div>
+    <div class="tarjeta especifico">
+      <h2>Desarrollo web en entorno cliente</h2>
+      <dl><dt>Código</dt><dd>0612</dd><dt>Créditos ECTS</dt><dd>9</dd></dl>
+    </div>
+    <div class="tarjeta especifico">
+      <h2>Desarrollo web en entorno servidor</h2>
+      <dl><dt>Código</dt><dd>0613</dd><dt>Créditos ECTS</dt><dd>12</dd></dl>
+    </div>
+  </div>
+
+  <hr>
+  <p class="pie">Fuente de los códigos y créditos ECTS:
+    <a href="https://www.boe.es/eli/es/rd/2010/05/20/686">Real Decreto 686/2010, de 20 de mayo (BOE núm. 143, 12/06/2010)</a>, Anexo I.
+    El título completo suma 120 ECTS.</p>
+</body>
+</html>

@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="author" content="TU NOMBRE Y APELLIDOS">
+  <title>Galería: patrimonio histórico de Algeciras</title>
+  <!--
+    EJERCICIO 4 · Galería (equivale a galeria.html del post)
+    Contexto: ALGECIRAS + HISTORIA. Seis lugares con su fecha clave.
+    Etiquetas que se practican: div, figure, figcaption, img (src, alt, width), p, hr.
+    Cada figure se muestra como "inline-block", así se colocan unas al lado de
+    otras y bajan a la siguiente fila cuando no caben.
+  -->
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      color: #222222;
+      margin: 20px;
+    }
+    figure {
+      display: inline-block;
+      width: 280px;
+      margin: 10px;
+      padding: 8px;
+      border: 1px solid #dddddd;
+      vertical-align: top;
+    }
+    img {
+      width: 280px;
+    }
+    figcaption {
+      font-size: 14px;
+      color: #444444;
+    }
+    .pie {
+      font-size: 13px;
+    }
+  </style>
+</head>
+<body>
+  <h1>Algeciras en seis lugares</h1>
+  <p>Un paseo por la historia de la ciudad, de la Edad Media al siglo XX.</p>
+
+  <div>
+    <figure>
+      <img src="img/isla-verde.svg" alt="Ilustración de una isla verde frente a la costa">
+      <figcaption><strong>Isla Verde · 711</strong><br>
+        Base de las tropas de Tarik; de ella viene el nombre árabe Al-Yazirat Al-Hadra.</figcaption>
+    </figure>
+    <figure>
+      <img src="img/murallas.svg" alt="Ilustración de una muralla almenada con una torre-puerta">
+      <figcaption><strong>Villa Nueva meriní · 1285</strong><br>
+        Termina la construcción de la nueva villa amurallada, al otro lado del río de la Miel.</figcaption>
+    </figure>
+    <figure>
+      <img src="img/los-arcos.svg" alt="Ilustración de un acueducto de arcos">
+      <figcaption><strong>Acueducto «Los Arcos» · 1777</strong><br>
+        Llevaba agua a la ciudad refundada desde un manantial cercano.</figcaption>
+    </figure>
+    <figure>
+      <img src="img/plaza-alta.svg" alt="Ilustración de una plaza con fuente central y árboles">
+      <figcaption><strong>Plaza Alta · siglo XVIII</strong><br>
+        Construida en la expansión urbana tras la refundación; remodelada en 1807.</figcaption>
+    </figure>
+    <figure>
+      <img src="img/reina-cristina.svg" alt="Ilustración de un gran hotel de tejado rojo entre árboles">
+      <figcaption><strong>Hotel Reina Cristina · 1906</strong><br>
+        Alojamiento de los delegados durante la Conferencia de Algeciras.</figcaption>
+    </figure>
+    <figure>
+      <img src="img/puerto.svg" alt="Ilustración de un barco de vapor atracado en un muelle">
+      <figcaption><strong>Junta de Obras del Puerto · 1906</strong><br>
+        Origen del actual Puerto Bahía de Algeciras, impulsado tras la llegada del tren (1892).</figcaption>
+    </figure>
+  </div>
+
+  <hr>
+  <p class="pie">Fuentes:
+    <a href="https://es.wikipedia.org/wiki/Historia_de_Algeciras">Wikipedia – Historia de Algeciras</a> y
+    <a href="https://es.wikipedia.org/wiki/Conferencia_de_Algeciras">Wikipedia – Conferencia de Algeciras</a>.
+    Ilustraciones: freepik gratis</p>
+</body>
+</html>

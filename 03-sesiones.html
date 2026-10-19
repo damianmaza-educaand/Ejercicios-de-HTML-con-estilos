@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="author" content="TU NOMBRE Y APELLIDOS">
+  <title>Calendario de sesiones · Conferencia de Algeciras 1906</title>
+  <!--
+    EJERCICIO 3 · Tabla compleja (equivale a horarios.html del post)
+    Contexto: HISTORIA. Calendario real de las 18 sesiones de la Conferencia.
+    Etiquetas que se practican: table, caption, thead, tbody, tfoot, tr, th, td,
+    rowspan, colspan, div, p, hr.
+  -->
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      color: #222222;
+      margin: 20px;
+    }
+    table {
+      border-collapse: collapse;
+      width: 800px;
+    }
+    caption {
+      font-weight: bold;
+      font-size: 18px;
+      margin-bottom: 10px;
+    }
+    th, td {
+      border: 1px solid #555555;
+      padding: 6px;
+      text-align: center;
+    }
+    th {
+      background-color: #e7eef3;
+    }
+    tfoot td {
+      font-weight: bold;
+      background-color: #fafafa;
+    }
+    .clave {
+      background-color: #fde9c8;
+      font-weight: bold;
+    }
+    .pie {
+      font-size: 13px;
+    }
+  </style>
+</head>
+<body>
+  <div>
+    <table>
+      <caption>Sesiones de la Conferencia Internacional de Algeciras (1906)</caption>
+
+      <thead>
+        <tr>
+          <th rowspan="2">Mes</th>
+          <th colspan="7">Días de sesión</th>
+          <th rowspan="2">N.º de sesiones</th>
+        </tr>
+        <tr>
+          <th>1.ª</th><th>2.ª</th><th>3.ª</th><th>4.ª</th>
+          <th>5.ª</th><th>6.ª</th><th>7.ª</th>
+        </tr>
+      </thead>
+
+      <tbody>
+        <tr>
+          <th>Enero</th>
+          <td class="clave">16</td><td>22</td><td>24</td>
+          <td colspan="4">—</td>
+          <td>3</td>
+        </tr>
+        <tr>
+          <th>Febrero</th>
+          <td>1</td><td>7</td><td>10</td><td>13</td><td>14</td><td>17</td>
+          <td>—</td>
+          <td>6</td>
+        </tr>
+        <tr>
+          <th>Marzo</th>
+          <td>3</td><td>8</td><td>10</td><td>26</td><td>27</td><td>29</td><td>31</td>
+          <td>7</td>
+        </tr>
+        <tr>
+          <th>Abril</th>
+          <td>2</td><td class="clave">7</td>
+          <td colspan="5">—</td>
+          <td>2</td>
+        </tr>
+      </tbody>
+
+      <tfoot>
+        <tr>
+          <td colspan="8">Total de sesiones (inaugural el 16 de enero, clausura y firma del Acta el 7 de abril)</td>
+          <td>18</td>
+        </tr>
+      </tfoot>
+    </table>
+
+    <hr>
+    <p class="pie">Fuente de los datos:
+      <a href="https://es.wikipedia.org/wiki/Conferencia_de_Algeciras">Wikipedia – Conferencia de Algeciras</a></p>
+  </div>
+</body>
+</html>
