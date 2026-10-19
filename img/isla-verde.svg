@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400" role="img" aria-label="Isla Verde">
+<defs><linearGradient id="c" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#9fd8f0"/><stop offset="1" stop-color="#e8f6fb"/></linearGradient></defs>
+<rect width="600" height="400" fill="url(#c)"/>
+<circle cx="500" cy="80" r="38" fill="#ffd36b"/><rect y="300" width="600" height="100" fill="#2f6f8f"/><path d="M0 315 Q30 305 60 315 T120 315 T180 315 T240 315 T300 315 T360 315 T420 315 T480 315 T540 315 T600 315" stroke="#9fd0e6" stroke-width="3" fill="none"/><ellipse cx="300" cy="305" rx="170" ry="38" fill="#4c8a3e"/><ellipse cx="300" cy="292" rx="120" ry="26" fill="#6aab52"/><g fill="#7a5230"><rect x="250" y="230" width="6" height="55"/><rect x="340" y="240" width="6" height="45"/></g><g fill="#2f6b2a"><circle cx="253" cy="228" r="18"/><circle cx="343" cy="238" r="15"/></g><path d="M90 340 l40 0 l-6 12 l-28 0 z" fill="#5a3a1e"/><line x1="110" y1="340" x2="110" y2="300" stroke="#5a3a1e" stroke-width="3"/><path d="M112 302 l22 28 l-22 0 z" fill="#f4ecd8"/>
+</svg>

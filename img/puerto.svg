@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400" role="img" aria-label="Puerto de Algeciras">
+<defs><linearGradient id="c" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#ffd0a6"/><stop offset="1" stop-color="#fff2e3"/></linearGradient></defs>
+<rect width="600" height="400" fill="url(#c)"/>
+<circle cx="500" cy="80" r="38" fill="#ffd36b"/><rect y="300" width="600" height="100" fill="#2f6f8f"/><path d="M0 315 Q30 305 60 315 T120 315 T180 315 T240 315 T300 315 T360 315 T420 315 T480 315 T540 315 T600 315" stroke="#9fd0e6" stroke-width="3" fill="none"/><rect x="0" y="285" width="600" height="18" fill="#7d6a55"/><path d="M150 300 l300 0 l-30 40 l-240 0 z" fill="#ffffff"/><rect x="230" y="255" width="140" height="45" fill="#e9eef2"/><circle cx="250" cy="278" r="7" fill="#2f6f8f"/><circle cx="275" cy="278" r="7" fill="#2f6f8f"/><circle cx="300" cy="278" r="7" fill="#2f6f8f"/><circle cx="325" cy="278" r="7" fill="#2f6f8f"/><circle cx="350" cy="278" r="7" fill="#2f6f8f"/><rect x="300" y="215" width="22" height="40" fill="#c0392b"/><path d="M310 205 q20 -30 60 -40" stroke="#cfd6db" stroke-width="10" fill="none" stroke-linecap="round"/>
+</svg>

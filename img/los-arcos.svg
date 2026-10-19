@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400" role="img" aria-label="Acueducto Los Arcos">
+<defs><linearGradient id="c" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#a8d8ea"/><stop offset="1" stop-color="#eaf6fa"/></linearGradient></defs>
+<rect width="600" height="400" fill="url(#c)"/>
+<circle cx="500" cy="80" r="38" fill="#ffd36b"/><rect y="300" width="600" height="100" fill="#c9b48a"/><rect x="20" y="170" width="560" height="135" fill="#c27b4a"/><path d="M30 305 v-70 a28 28 0 0 1 56 0 v70 z" fill="#f2e6cf"/><path d="M100 305 v-70 a28 28 0 0 1 56 0 v70 z" fill="#f2e6cf"/><path d="M170 305 v-70 a28 28 0 0 1 56 0 v70 z" fill="#f2e6cf"/><path d="M240 305 v-70 a28 28 0 0 1 56 0 v70 z" fill="#f2e6cf"/><path d="M310 305 v-70 a28 28 0 0 1 56 0 v70 z" fill="#f2e6cf"/><path d="M380 305 v-70 a28 28 0 0 1 56 0 v70 z" fill="#f2e6cf"/><path d="M450 305 v-70 a28 28 0 0 1 56 0 v70 z" fill="#f2e6cf"/><path d="M520 305 v-70 a28 28 0 0 1 56 0 v70 z" fill="#f2e6cf"/><rect x="20" y="160" width="560" height="14" fill="#a8653a"/>
+</svg>
